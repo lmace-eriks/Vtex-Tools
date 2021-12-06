@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+}
+
+main > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+h1 {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+textarea, input, select, option {
+    color: black;
+    background-color: darkgray;
+}
+
+#text-title, #block-class, #font, select, option {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+select {
+    padding: 0 1rem;
+}
+
+textarea {
+    margin-top: 1rem;
+    width: 60ch;
+    padding: 0.5rem;
+}
+
+button {
+    color: black;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#output-div {
+    font-size: 2rem;
+    width: 75%;
+    text-align: left;
+    margin-top: 1rem;
+}
